@@ -1,27 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@400;600;700;900&family=Comfortaa:wght@400;600;700&family=Comforter&family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Kufam:wght@400;600;700;900&family=Rubik:wght@400;600;700;900&family=Tajawal:wght@400;500;700;900&family=Vibes&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Changa:wght@800&family=Lalezar&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+    .bg-gradient-effil {
+      background: linear-gradient(to left, #00c6fb 0%, #005bea 100%);
+    }
+  }
+  
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --main-color: rgba(17, 186, 240, 0.93);
+    --primary-color: #edf2fc;
+    --secondary-color: rgba(33, 33, 33, 1);
+    --box-bg: #f3f4f6;
+    --text-dark-color: #606163;
+    --wave-1: rgba(237, 242, 252, 0.7);
+    --wave-2: rgba(237, 242, 252, 0.5);
+    --wave-3: rgba(237, 242, 252, 0.3);
+    --nav-height: 60px;
+    --space-top: 30px;
+    --light-color: #D1d5db;
+    --new-dark-text: #6B7280;
+    --contain: 92%;
+    --jsn: #72680c;
+    --wknbfkj: #11b8f06c;
+    
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::selection {
+color: none;
+background: none;
+}
+
+
+.dark {
+--primary-color: #000106;
+--secondary-color: #fff;
+--text-dark-color: #edf2fc;
+--wave-1: rgba(33, 33, 33, 0.8);
+--wave-2: rgba(33, 33, 33, 0.5);
+--wave-3: rgba(33, 33, 33, 0.3);
+--light-color: #1f2937;
+--new-dark-text: #9CA3AF;
+--box-bg: #111827;
+
+
+
+}
+
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+html {
+    scroll-behavior: auto;
+    
+  
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+font-family: "Almarai", sans-serif;
+direction: rtl;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.vip{
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
 }
+
+.desc {
+  max-width: 240px;
+}
+
+
+.header-card {
+  color: #064a60;
+  color:  #064a60;
+  font-family: Almarai;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: .72px;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+.smooth {
+  transition: all .4s ease;
+}
+
+.shadow-large--oblique {
+  box-shadow: -5px 5px 20px #0006;
+}
+
+.divider-2 {
+  height: 2px;
+  width: 100%;
+}
+
+.clr-text-secondary {
+  color: #6b7280;
+}
+
+
+
