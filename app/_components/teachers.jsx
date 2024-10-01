@@ -5,8 +5,13 @@ import React from "react";
 const Teacher = () => {
   return (
     <div className="bg-gradient-effil w-full h-[70vh] sm:h-[80vh] mb-[200px] overflow-hidden">
+<<<<<<< HEAD
       <div className="flex sm:flex-row  flex-col-reverse  items-center w-[--contain] h-full mx-auto pt-14 ">
         <div className="sm:h-full h-[50%] sm:w-[50%]">
+=======
+      <div className="flex items-center w-[--contain] h-full mx-auto">
+        <div className="h-full w-[50%]">
+>>>>>>> 24b36f836d1c5706e55906e061d105a3a5750530
           <Image
             src="/images/effil.png"
             alt="effil tour"
