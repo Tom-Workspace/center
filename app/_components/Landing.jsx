@@ -4,8 +4,8 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div className=' mt-[70px] min-h-screen flex justify-center w-[--contain] mx-auto pt-[5%]'>
-        <div className=' w-[50%] flex flex-col items-start pr-[6%] pt-3 '>
+    <div className=' mt-[70px] min-h-screen flex sm:flex-row flex-col  justify-center w-full sm:w-[--contain] mx-auto pt-[5%]'>
+        <div className=' w-full sm:w-[50%] flex flex-col items-center sm:items-start px-[10%] text-center mb-24 sm:mb-0 sm:pr-[6%] pt-3 '>
             <h1 className="font-bold text-3xl md:text-4xl xl:text-5xl mb-8 ">
               <span className="relative z-10 text-[--secondary-color] dark:text-[--secondary-color]">منصة <span 
               className="text-primSky-500 vip font-bold text-5xl md:text-6xl xl:text-7xl 
@@ -26,7 +26,7 @@ const Landing = () => {
             </div>
 
         </div>
-        <div className=' w-[50%]'>
+        <div className='w-full sm:w-[50%] mb-32 sm:mb-0 '>
             <div className=' w-full flex items-center justify-center overflow-hidden'>
                 <Image
                     src="/images/present.svg" 

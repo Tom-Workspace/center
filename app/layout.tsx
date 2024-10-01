@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased dark:bg-[#000106]`}
+        className={`antialiased dark:bg-[#000106] overflow-x-hidden`}
       >
         {children}
         <Foooter />
