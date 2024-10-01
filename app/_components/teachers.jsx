@@ -4,7 +4,7 @@ import React from "react";
 
 const Teacher = () => {
   return (
-    <div className="bg-gradient-effil w-full h-[70vh] sm:h-[80vh] mb-[200px]">
+    <div className="bg-gradient-effil w-full h-[70vh] sm:h-[80vh] mb-[200px] overflow-hidden">
       <div className="flex items-center w-[--contain] h-full mx-auto">
         <div className="h-full w-[50%]">
           <Image
