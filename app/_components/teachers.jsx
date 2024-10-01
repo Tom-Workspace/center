@@ -4,25 +4,26 @@ import React from "react";
 
 const Teacher = () => {
   return (
-    <div className="bg-gradient-effil w-full h-[70vh] sm:h-[80vh] mb-[200px]">
-      <div className="flex items-center w-[--contain] h-full mx-auto">
-        <div className="h-full w-[50%]">
+    <div className="bg-gradient-effil w-full h-[70vh] sm:h-[80vh] mb-[200px] overflow-hidden">
+      <div className="flex sm:flex-row  flex-col-reverse  items-center w-[--contain] h-full mx-auto pt-14 ">
+        <div className="sm:h-full h-[50%] sm:w-[50%]">
           <Image
             src="/images/effil.png"
             alt="effil tour"
             width={300}
             height={300}
-            className="dark:opacity-90 transition-opacity duration-300 w-[90%] h-full"
+            className="dark:opacity-90 transition-opacity duration-300 w-full  sm:w-[90%] h-full"
           />
         </div>
-        <div className="text-[#C7CD8E] w-[70%] flex-col items-start justify-start h-[60%] my-auto">
-          <h1 className="text-6xl font-bold vip tracking-tight flex items-end gap-3 mb-6">
-            ليه <span className="text-8xl text-[#acb83c]">سعدون</span>
+        <div className="text-[#C7CD8E] w-full sm:w-[70%] flex-col items-start justify-start h-[60%] my-auto">
+          <h1 className=" text-3xl sm:text-6xl font-bold vip tracking-tight flex items-end gap-3 mb-6">
+            ليه <span className=" text-6xl sm:text-8xl text-[#acb83c]">سعدون</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="103"
               height="34"
               fill="none"
+             
             >
               <path
                 fill="#C3D14F"
@@ -31,7 +32,7 @@ const Teacher = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-            <span className="text-7xl">؟</span>
+            <span className=" text-4xl sm:text-7xl">؟</span>
           </h1>
           <p className="text-[#EAEBDE] text-lg lg:text-2xl w-full lg:w-2/3 mb-10">
             لأن طلبة كتير بتواجه صعوبة في فهم الفرنساوي وحل الاسئلة وفرتلك في منصة سعدون كل الي نفسك فيه عشان اخليلك المادة بسيطة ومُمتعة

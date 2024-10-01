@@ -3,7 +3,7 @@ import React from "react";
 
 const Foooter = () => {
   return (
-    <footer className=" w-full h-[450px] overflow-hidden bg-[#334155] mt-56">
+    <footer className=" w-full h-[450px] bg-[#334155] mt-56 overflow-hidden">
       <div className=" flex items-center justify-center flex-col h-full">
           <div className="flex items-end justify-center gap-3  h-[50%] pb-9  ">
             <svg
@@ -12,6 +12,7 @@ const Foooter = () => {
               width="60"
               height="60"
               viewBox="0 0 256 256"
+              className=" w-12 sm:w-[60px] sm:h-[60px] h-12"
             >
               <g transform="translate(1.4 1.4) scale(2.81 2.81)">
                 <circle
@@ -33,6 +34,8 @@ const Foooter = () => {
               width="60"
               height="60"
               viewBox="0 0 256 256"
+              className=" w-12 sm:w-[60px] sm:h-[60px] h-12"
+
             >
               <g transform="translate(1.4 1.4) scale(2.81 2.81)">
                 <path
@@ -52,6 +55,8 @@ const Foooter = () => {
               width="60"
               height="60"
               viewBox="0 0 256 256"
+              className=" w-12 sm:w-[60px] sm:h-[60px] h-12"
+
             >
               <g transform="translate(1.4 1.4) scale(2.81 2.81)">
                 <path
@@ -73,16 +78,16 @@ const Foooter = () => {
               </g>
             </svg>
           </div>
-          <div className=" bg-[#1e293b] w-[43%] h-1 rounded-[50%] mb-8">
+          <div className=" bg-[#1e293b] w-[43%] h-1 rounded-[50%] mb-6 sm:mb-8">
           </div>
-        <div className="flex items-center justify-center flex-col gap-2 h-[50%]">
+        <div className="flex items-center justify-center flex-col gap-2 h-[50%] text-center px-1">
           <p className="text-[#D1d5db] text-base"> 
-            <span className=" text-3xl">💓</span> تم صنع هذه المنصة بهدف تهيئة الطالب لـ كامل جوانب
-            الثانوية العامة و ما بعدها <span className=" text-3xl">💓</span>
+            <span className=" hidden sm:inline sm:text-3xl">💓</span> تم صنع هذه المنصة بهدف تهيئة الطالب لـ كامل جوانب
+            الثانوية العامة و ما بعدها <span className=" hidden sm:inline sm:text-3xl">💓</span>
           </p>
-          <p className=" text-[#D8b4fe] mb-12 text-sm">
+          <p className=" text-[#D8b4fe] mb-12 text-[13px] sm:text-sm">
             <span className=" text-[#8333ea]">{"<"}</span> Developed By <span className=" text-[#8333ea]">{">"}</span>{" "}
-            <Link className="text-white px-3 text-lg" href="#">Ahmed</Link><span className=" text-[#8333ea] pr-1">{"<"}</span>All
+            <Link className="text-white px-1 sm:px-3 text-base sm:text-lg" href="#">Ahmed</Link><span className=" text-[#8333ea] pr-1">{"<"}</span>All
             Copy Rights Reserved @2024 <span className=" text-[#8333ea]">{">"}</span>
           </p>
 

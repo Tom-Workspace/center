@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Foooter from './_components/Foooter';
-
+import Foooter from "./_components/Foooter";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased dark:bg-[#000106] overflow-x-hidden`}
-      >
+      <body className={`antialiased dark:bg-[#000106]`}>
         {children}
         <Foooter />
       </body>
