@@ -16,8 +16,21 @@ const config: Config = {
           900: 'rgb(231, 248, 253)',
           950: 'rgb(231, 248, 253)',
         },
+        Olive: {
+          50: 'rgb(251, 251, 234)',
+          200: '#e9eea8',
+          500: 'rgb(164, 181, 45)',
+          400: 'rgb(195, 209, 79)',
+        },
         pistachio: {
           400: 'rgb(148, 201, 82)',
+        },
+        midNight: {
+          900: '#125667',
+          800: '#10697a',
+          100: 'rgb(205, 255, 254)',
+          950: 'rgb(6, 69, 86)',
+
         },
         background: "var(--background)",
         foreground: "var(--foreground)",

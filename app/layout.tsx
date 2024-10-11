@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`antialiased dark:bg-[#000106]`}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`antialiased dark:bg-[#080c14] transition-colors duration-300 ease-linear`}>
         {children}
         <Foooter />
       </body>
